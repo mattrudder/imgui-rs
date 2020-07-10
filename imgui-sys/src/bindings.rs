@@ -6627,10 +6627,10 @@ extern "C" {
     pub fn igGetFrameCount() -> ::std::os::raw::c_int;
 }
 extern "C" {
-    pub fn igGetBackgroundDrawList() -> *mut ImDrawList;
+    pub fn igGetBackgroundDrawListNil() -> *mut ImDrawList;
 }
 extern "C" {
-    pub fn igGetForegroundDrawList() -> *mut ImDrawList;
+    pub fn igGetForegroundDrawListNil() -> *mut ImDrawList;
 }
 extern "C" {
     pub fn igGetDrawListSharedData() -> *mut ImDrawListSharedData;
